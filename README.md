@@ -11,9 +11,10 @@ This repository uses the following:
 - Partial Autocorrelation Function (PACF) -> Seasonal Autoregressive Order SAR(Q)
 - Fitting models
 - Akaike Information Criteria (AIC)
+- Sum Squared Error (SSE)
 - The parsimony priniple: preferebly p+d+q+P+D+Q<=6
 - Residuals
 - Ljung-Box test
 - Forecasting
 
-Please refer to the python notebook called sarima.ipynb for further details.
+Please refer to the python notebook called sarima.ipynb for the analysis.
