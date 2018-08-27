@@ -1,5 +1,7 @@
 # lake-erie-time-series
-Time Series Analysis of Lake Erie Water Levels from 1921-1970 using R
+Time Series Analysis of Lake Erie Water Levels from 1921-1970
+
+Programming language: R
 
 This repository uses the following:
 
