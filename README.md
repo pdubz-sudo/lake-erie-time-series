@@ -1,5 +1,5 @@
 # lake-erie-time-series
-Time Series Analysis of Lake Erie Water Levels from 1921-1970
+Time Series Analysis of Lake Erie Water Levels from 1921-1970 using sarima and Holt-Winters
 
 Programming language: R
 
