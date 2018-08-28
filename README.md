@@ -3,9 +3,13 @@ Time Series Analysis of Lake Erie Water Levels from 1921-1970
 
 Programming language: R
 
-This repository uses the following:
+Time Series analysis is performed using SARIMA (seasonal autoregressive integrated moving average) and Holt-Winters forecasting modelling.
+It is always good practice to build different models because quality of results vary depending on the data and goal.
+Sometimes, one modelling type doesn't work while others do and vice-versa.
 
-- Time plots
+The SARIMA jupyter notebook contains the following:
+
+- Time series plots
 - Differencing (seasonal or non-seasonal)
 - Autocorrelation Function (ACF) -> Moving Average Order MA(q)
 - Autocorrelation Function (ACF) -> Seasonal Moving Average Order SMA(Q)
@@ -19,4 +23,10 @@ This repository uses the following:
 - Ljung-Box test
 - Forecasting
 
-Please refer to the python notebook called sarima.ipynb for the analysis.
+
+The Holt-Winters jupyter notebook contains the following:
+- Time series plot
+- Determing Trend and Seasonality
+- Holt-Winters forecasting
+- Smoothing Breakdown
+- Forecasting for April 1972
